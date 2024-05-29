@@ -246,6 +246,7 @@ border-radius: 50%;
     height: 100%;
     background-color: #4d5ae5;
     border-radius: 50%;
+    transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
     
 }
 .link:hover {
@@ -362,6 +363,7 @@ ul{
 border-radius: 50%;
     background-color: #fff;
     fill: #4d5ae5;
+    fill: ;
 }
 .icon-list-foot{
     display: flex;
@@ -397,7 +399,7 @@ border-radius: 50%;
     width: 1158px;
         padding: 0 15px;
         margin: 0 auto;
-        align-items: center;
+     
 
 }
 .page-footer{
