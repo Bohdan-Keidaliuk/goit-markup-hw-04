@@ -327,9 +327,12 @@ transition: box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .section-four-li:hover .overlay {
     transform: translateY(0);
-    box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08),
+    
+}
+.section-four-li:hover{
+  box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08),
         0px 1px 1px rgba(46, 47, 66, 0.16),
-        0px 2px 1px rgba(46, 47, 66, 0.08);
+        0px 2px 1px rgba(46, 47, 66, 0.08);  
 }
 .section-four-p{
     font-size: 16px;
@@ -360,6 +363,9 @@ ul{
 .container-foot{
     margin-right: 120px;
 }
+.container-foot-icon{
+    padding-left: 0;
+}
 .icon-footer{
 
     fill: #f4f4fd;
@@ -371,6 +377,7 @@ ul{
         justify-content: flex-start;
         flex-direction: row;
         gap: 16px;
+        padding-left: 0;
 }
 
 .logo-span-foot{
@@ -409,6 +416,7 @@ ul{
     letter-spacing: 0.02em;
     margin-bottom: 16px;
     color: #FFFFFF;
+    margin-left: 8px;
 }
 .item-footer{
     width: 40px;
