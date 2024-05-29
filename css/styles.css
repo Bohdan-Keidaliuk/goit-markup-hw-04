@@ -232,8 +232,6 @@ display: flex;
      margin-top: 8px;
 }
 .icon{
-border-radius: 50%;
-    background-color: #4d5ae5;
     fill: #f4f4fd;
 }
 
@@ -360,10 +358,9 @@ ul{
     padding: 100px 0;
 }
 .icon-footer{
-border-radius: 50%;
-    background-color: #fff;
-    fill: #4d5ae5;
-    fill: ;
+
+    fill: #f4f4fd;
+    
 }
 .icon-list-foot{
     display: flex;
